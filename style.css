@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,body{
+   width: 100%;
+   height:100%;
+  }
+  
+  body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Playfair Display", serif;
+    font-weight:400
+  }
+  
+  
+  
+  main{
+    width: 65%;
+    display: flex;
+    border-radius:10px;
+    overflow:hidden;
+    padding:10px;
+    background: #fff;
+    gap:10px;
+    box-shadow: gray 0 5px 10px;
+  }
+  
+  .right-side-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap:2rem;
+    border-right:silver 1px solid;
+  }
+  
+  .left-side-container{
+    background: white;
+  }
+  .img{
+    width:90%;
+    height:60%;
+    border-radius:10px;
+  }
+  .text-content{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    display: flex;
+    flex-direction:column;
+    gap:10px
+  }
+  .job{
+    font-size:1rem;
+  }
+  .info{
+    color:gray;
+    font-size:0.90rem;
+  }
+  
+  
+  .underline{
+    width: 4rem;
+    height: 5px;
+    background:  #781bf2;
+  }
+  
+  .right-side-text-content{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    gap:30px;
+  }
+  section h1{
+    color:#781bf2;
+  }
+  section{
+    display: flex;
+    flex-direction:column;
+    gap:10px
+  }
+  section p{
+    color:gray
+  }
+  section div{
+    display: flex;
+    flex-direction:column;
+    gap:5px
+  }
+  
+  button {
+    padding: 14px 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    width:150px;
+    box-shadow: silver 0px 7px 29px 0px;
+    color:#781bf2;
+    font-weight:400
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: #8f55f2;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: #8f55f2;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
+  
